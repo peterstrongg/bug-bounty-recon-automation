@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="HQJoVj8KQw8PCAt6BR4AXUo3DDIvKD02_5YckbnGzYD-jOekrdEvxnnO" name="csrf-token">
+    <title>
+Firezone
+    </title>
+    <link phx-track-static rel="stylesheet" href="/dist/root-e28157c5c9d1d196fe8478906b58938e.css?vsn=d">
+    <script defer phx-track-static type="text/javascript" src="/dist/root-9fd822b72683719492ba0a6027dc58a9.js?vsn=d">
+    </script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="331700">
+    <meta name="theme-color" content="331700">
+    <!-- CSRF -->
+<meta content="HQJoVj8KQw8PCAt6BR4AXUo3DDIvKD02_5YckbnGzYD-jOekrdEvxnnO" name="csrf-token">
+  </head>
+  <body>
+    <section class="section hero is-fullheight is-error-section">
+      <div id="app" class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-two-thirds-tablet is-half-desktop is-one-third-widescreen">
+              <div class="block">
+                <div class="has-text-centered">
+<img src="/images/logo-text-ca52ed907d151db880273b3031a0f8fd.svg?vsn=d" alt="firezone.dev">
+                </div>
+              </div>
+
+<div>
+<h3 class="is-3 title">Sign In</h3>
+
+<hr>
+
+<div class="content">
+  <p>
+    Please sign in via one of the methods below.
+  </p>
+
+
+
+    <p>
+<a class="button" href="/auth/identity">Sign in with email</a>
+    </p>
+
+</div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

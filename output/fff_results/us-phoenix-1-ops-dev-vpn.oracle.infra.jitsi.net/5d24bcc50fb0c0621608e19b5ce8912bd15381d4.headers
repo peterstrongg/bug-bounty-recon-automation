@@ -1,0 +1,18 @@
+GET https://us-phoenix-1-ops-dev-vpn.oracle.infra.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: max-age=0, private, must-revalidate
+< Date: Fri, 20 Jan 2023 19:23:08 GMT
+< Alt-Svc: h3=":443"; ma=2592000
+< Content-Length: 1969
+< Server: Caddy
+< Server: Cowboy
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< X-Request-Id: Fzwaw7Jck1xTStIAqs8B
+< Referrer-Policy: strict-origin-when-cross-origin
+< Set-Cookie: _fz_http_key=QTEyOEdDTQ.KlL0eX_AQ3k7yglBm1IZ_4x2hUOITs4S1dBP2sNTr_-NcsTvxwgriItzSYk.jX0evkeR4ciSj3z2.ju-X8UxE-xGHFqBiFdk2DD9K9M7HccatyclgfaDlhU1kxW3IF0QCWCuGgsR5jK9za9Gn.B1rmup1KoPB5Kpuu21KqNw; path=/; expires=Fri, 20 Jan 2023 23:23:09 GMT; max-age=14400; secure; HttpOnly
+< X-Download-Options: noopen

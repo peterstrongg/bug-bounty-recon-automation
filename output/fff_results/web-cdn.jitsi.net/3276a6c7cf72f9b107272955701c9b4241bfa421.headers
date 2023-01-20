@@ -1,0 +1,16 @@
+GET https://web-cdn.jitsi.net
+
+
+< HTTP/1.1 403 Forbidden
+< Access-Control-Allow-Origin: *
+< Content-Type: application/xml
+< Access-Control-Max-Age: 3000
+< X-Amz-Cf-Pop: IAD55-P4
+< X-Amz-Cf-Id: j-GJIBAEfMtZwEPbEzHgNm-Q18tCypL37LHOsqeSKp07jmzTCljXBQ==
+< Access-Control-Allow-Methods: GET, POST, PUT, HEAD
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Via: 1.1 e71ab653feb8332f51edf19089ecf9fc.cloudfront.net (CloudFront)
+< Cross-Origin-Resource-Policy: cross-origin
+< X-Amz-Bucket-Region: us-west-2
+< Server: AmazonS3
+< X-Cache: Error from cloudfront

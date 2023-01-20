@@ -1,0 +1,8 @@
+GET http://meet-jit-si-latency.cloud.jitsi.net
+
+
+< HTTP/1.1 404 Not Found
+< Server: nginx/1.18.0 (Ubuntu)
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Content-Type: text/html
+< Content-Length: 162

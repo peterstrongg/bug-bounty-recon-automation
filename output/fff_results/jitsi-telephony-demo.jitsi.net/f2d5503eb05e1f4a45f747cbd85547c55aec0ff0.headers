@@ -1,0 +1,12 @@
+GET https://jitsi-telephony-demo.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Content-Type: text/html; charset=utf8
+< Strict-Transport-Security: max-age=63072000
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Permissions-Policy: interest-cohort=()
+< Server: nginx
+< Vary: Accept-Encoding

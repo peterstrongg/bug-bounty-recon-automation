@@ -1,0 +1,13 @@
+GET https://prod-8x8-ap-mumbai-1-s9.oracle.infra.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< X-Jitsi-Shard: prod-8x8-ap-mumbai-1-s9
+< X-Jitsi-Region: ap-south-1
+< Content-Security-Policy: frame-ancestors https://8x8.vc
+< Content-Type: text/html
+< Access-Control-Allow-Origin: *
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< X-Jitsi-Release: 3636
+< Access-Control-Expose-Headers: Content-Type, X-Jitsi-Region, X-Jitsi-Shard, X-Proxy-Region, X-Jitsi-Release, Content-Security-Policy
+< Server: nginx/1.22.1

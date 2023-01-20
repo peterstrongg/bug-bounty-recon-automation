@@ -1,0 +1,13 @@
+GET https://meet-jit-si-sa-saopaulo-1-haproxy.oracle.infra.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< X-Jitsi-Region: sa-east-1
+< X-Proxy-Host: meet-jit-si-haproxy-163125
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< X-Jitsi-Release: 3790
+< X-Jitsi-Shard: meet-jit-si-sa-saopaulo-1-s30
+< Content-Type: text/html
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Type, X-Jitsi-Region, X-Jitsi-Shard, X-Proxy-Region, X-Jitsi-Release, Content-Security-Policy
+< X-Proxy-Region: sa-east-1

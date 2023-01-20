@@ -1,0 +1,8 @@
+GET https://rtcstats-server.jitsi.net
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Cache-Control: no-cache
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Content-Length: 93

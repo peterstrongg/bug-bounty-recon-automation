@@ -1,0 +1,9 @@
+<html>
+    <meta HTTP-EQUIV="refresh" CONTENT="0;http://jitsi.org/index.php/Main/Download">
+
+	<body>
+		<script>
+			document.location.replace("http://jitsi.org/index.php/Main/Download");
+		</script>
+	</body>
+</html>

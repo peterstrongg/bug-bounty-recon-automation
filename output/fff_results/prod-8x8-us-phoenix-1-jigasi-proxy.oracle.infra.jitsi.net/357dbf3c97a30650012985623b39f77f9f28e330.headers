@@ -1,0 +1,8 @@
+GET http://prod-8x8-us-phoenix-1-jigasi-proxy.oracle.infra.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Fri, 20 Jan 2023 13:40:56 GMT
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Content-Type: text/html
+< Etag: W/"63ca99e8-1b"

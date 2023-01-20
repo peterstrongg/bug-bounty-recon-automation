@@ -1,0 +1,12 @@
+GET https://hristo.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< X-Jitsi-Shard: hcv-lonely-hristo
+< Content-Security-Policy: frame-ancestors https://hristo.jitsi.net
+< Server: nginx/1.22.1
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< Access-Control-Expose-Headers: Content-Type, X-Jitsi-Region, X-Jitsi-Shard, X-Proxy-Region, X-Jitsi-Release, Content-Security-Policy
+< Access-Control-Allow-Origin: *
+< X-Jitsi-Region: us-west-2

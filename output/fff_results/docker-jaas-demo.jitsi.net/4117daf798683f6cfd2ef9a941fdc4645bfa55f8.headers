@@ -1,0 +1,12 @@
+GET https://docker-jaas-demo.jitsi.net
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< Permissions-Policy: interest-cohort=()
+< Date: Fri, 20 Jan 2023 19:23:09 GMT
+< X-Xss-Protection: 1; mode=block
+< Server: nginx
+< Content-Type: text/html; charset=utf8
+< Strict-Transport-Security: max-age=63072000
