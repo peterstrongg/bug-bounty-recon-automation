@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 rm -r output/* || mkdir output
+mkdir output/assets_by_status
 
 # Find subdomains given a list of wildcard domains
 for url in $(cat $1)
@@ -12,6 +13,9 @@ done
 # fff scan
 echo -e "\n[+] Beginning fff scan on discovered assets"
 cat output/assets | fff -S -d 5 -o output/fff_results | anew output/fff_raw
+
+# Creates files to sort assets by http status code
+python python_scripts/get_urls_by_status.py output/fff_raw
 
 # html-tool title scan
 echo -e "\n[+] Scanning title tags from each subdomain"
@@ -28,9 +32,6 @@ wait
 # Removes any potential blank lines from wayback output for easier parsing
 awk 'NF > 0' output/.temp | anew output/wayback_output
 rm output/.temp
-
-# Creates files to sort assets by http status code
-python python_scripts/get_urls_by_status.py output/fff_raw
 
 #comb output/assets ~/wordlists/configfiles.txt | fff -s 200 -d 1 -o output/configfiles
 

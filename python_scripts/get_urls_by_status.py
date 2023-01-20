@@ -10,7 +10,7 @@ for url in urls:
 f.close()
 	
 for key, value in url_dict.items():
-	fname = "output/http_" + url_dict[key]
+	fname = "output/assets_by_status/" + url_dict[key]
 	f = open(fname, 'a')
 	f.write(key + "\n")
 	
