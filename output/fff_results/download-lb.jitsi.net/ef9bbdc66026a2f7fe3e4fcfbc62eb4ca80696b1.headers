@@ -1,9 +1,0 @@
-GET https://download-lb.jitsi.net
-
-
-< HTTP/1.1 200 OK
-< Server: nginx/1.18.0
-< Last-Modified: Mon, 08 Jun 2020 18:24:44 GMT
-< Content-Type: text/html
-< Date: Fri, 20 Jan 2023 19:23:09 GMT
-< Etag: W/"5ede826c-d7"

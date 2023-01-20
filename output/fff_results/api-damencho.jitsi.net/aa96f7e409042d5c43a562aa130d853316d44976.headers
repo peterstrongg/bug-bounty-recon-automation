@@ -1,9 +1,0 @@
-GET https://api-damencho.jitsi.net
-
-
-< HTTP/1.1 200 OK
-< Date: Fri, 20 Jan 2023 19:23:09 GMT
-< Etag: W/"635944e5-2491"
-< Server: nginx/1.22.0
-< Content-Type: text/html
-< Last-Modified: Wed, 26 Oct 2022 14:32:05 GMT
